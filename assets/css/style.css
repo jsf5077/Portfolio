@@ -1,0 +1,283 @@
+/* Establishes sizing for the whole page */
+html {
+    height: 100%;
+}
+/* Header styles /////////////////////////////////////////////////////// */
+
+/* Main Header*/
+Header {
+    background: #ffffff;
+    border-bottom: solid #cccccc;
+    border-bottom-width: 2px;
+    overflow: auto;  
+}
+
+/* container for elements in the header*/
+.head_container {
+    width: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+/* element that contains my name*/
+.main_header {
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;   
+}
+/* headline 1 styles*/
+h1 {
+    color: #4aaaa5;
+    margin: 0;
+    padding: 16.35px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* Tab functionality\\\\\\\\\\\\\\\\ */
+
+/*allows me to control style when cursor overs over tabs*/
+li a:hover {
+    background-color: #4aaaa5;;
+    color: white;
+}
+
+/*Allows me to highlight (technically hide) active tab*/
+.current {
+    color: white;
+}
+
+/*Allows me to add a visible divider between tabs using text */
+#divider li:not(:last-child):before {
+    content: "|";
+    color:  #bebebe;
+}
+
+/* controls the layout for the tabs in the headline*/
+ul {
+    list-style-type: none;
+    margin: 0 auto;    
+  }
+
+/* Lets me float the tabs to the right side*/
+li {
+    float: right;
+}
+
+/* layout styles for the individual tabs */
+li a {
+    display: inline-block;
+    background-color: #ffffff;
+    border: none;
+    text-align: center;
+    padding:18.75px 10px;
+    text-decoration: none;
+    color:  #777777;
+    cursor: pointer; 
+}
+
+/* Body styles /////////////////////////////////////////////////////// */
+
+/* Main Body*/
+p {
+    text-indent: 2.0em;
+    line-height: 28px;
+}
+body {
+    position: relative;
+    min-height: 100%;
+    color:  #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url("../images/background.png");
+    background-color: #eeeee7;
+    padding: 0;
+    margin: 0; 
+}
+
+/*Style for headline 2*/
+h2 {
+    color: #4aaaa5;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* Style for the Body Headline*/
+.body_title {
+    border-bottom: solid #cccccc;
+    border-bottom-width: 2px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+/* Image headline*/
+.jeff {
+    float: left;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* padding-right: 20px;
+    padding-bottom: 10px; */
+}
+
+/*Content for the main Body*/
+.container {
+    background-color: #ffffff;
+    border: solid #dddddd;
+    border-width: 2px;
+    padding: 20px;
+    padding-top: 0;
+    max-width: 960px;
+    overflow: auto;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* formatting to allow the fields to be stacked vertically*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/*applying font family and style for the message area*/
+textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 200px;
+}
+
+/*syling for the submit button*/
+#submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* portfolio gallery////////// */
+/* Overall container for the image gallery used for layout using purposes. Accomplished using flex properties */
+.port_contain {
+    display: flex;
+  flex-wrap: wrap;
+}
+/* Sets the margins/spacing between the gallery images */
+.port_contain > div {
+    margin: 30px;
+}
+
+/* image sizing */
+img {
+    width: 240px;
+    
+}
+
+/* A container class for images that allows me to position descriptors appropriately */
+.image_container {
+    position: relative;
+    text-align: center;
+} 
+
+/* Style and positioning for image description */
+h3 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    position: absolute;
+    top: 240px;
+    padding: 20px;
+}
+/* Footer styles /////////////////////////////////////////////////////// */
+/* Style for the footer*/
+#foot {
+    color: #ffffff;
+    font-size: 12px;
+    background-color: #666666;
+    position: absolute;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    left: 0;
+    right: 0;
+    bottom:0;
+    border-top: solid #4aaaa5;
+    border-top-width:7px;
+    margin-bottom: 0;
+    
+}
+
+/* Setup to fix footer to the bottom */
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+/* Fun additions */
+.skyline {
+    position: absolute;
+    left: 0;
+    bottom: 65px;
+    width: 15%;
+}
+.blu {
+    position: fixed;
+    right: 6px;
+    top: 70px;
+    width: 9%;
+    image-rendering: crisp-edges;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024x) {
+    
+  }
+
+
+@media screen and (max-width: 980px) {
+    .container {
+        max-width: 600px;
+        margin: 20px;
+        margin-top: 0px
+    }
+    .blu {
+        width: 18%;
+        right: 10%;
+    }
+    .skyline {
+        left: 73%;
+        width: 20%;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 800px;
+    }
+    .blu {
+        display: none;
+    }
+    .skyline {
+        display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+   header {
+       position: static;
+   }
+}
