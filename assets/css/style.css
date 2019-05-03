@@ -353,7 +353,25 @@ footer {
     li a {
         
         padding:18.75px 20px;
+    }
+    img {
+        width: 335px;  
         
     }
- }    
+    h3 {
+        font-size: 20px;
+        width: 335px;
+        position: absolute;
+        top: 350px;
+        padding: 20px 0;
+        
+    }  
+    .port_contain > div {
+        margin: 0px;
+    } 
+    .container {
+        margin: 0;
+    } 
+ }
+ 
 
