@@ -346,4 +346,14 @@ footer {
         top: 550px;
         padding: 20px 0;
     }
-}
+} 
+
+@media screen and (max-width: 375px) {
+    
+    li a {
+        
+        padding:18.75px 20px;
+        
+    }
+ }    
+
