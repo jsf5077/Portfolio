@@ -365,6 +365,9 @@ footer {
         top: 550px;
         padding: 20px 0;
     }
+    .image_container:hover {
+        transform: none;
+    }
 } 
 
 @media screen and (max-width: 450px) {
