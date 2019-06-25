@@ -6,8 +6,8 @@ html {
 
 /* Main Header*/
 Header {
-    background: #ffffff;
-    border-bottom: solid #cccccc;
+    background: #363636;
+    border-bottom: solid #009ece;
     border-bottom-width: 2px;
     overflow: auto;  
 }
@@ -24,28 +24,26 @@ Header {
 .main_header {
     float: left;
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #009ece;
     text-align: center;   
 }
 /* headline 1 styles*/
 h1 {
-    color: #4aaaa5;
+    color: #009ece;
     margin: 0;
     padding: 16.35px;
     padding-left: 17px;
     padding-right: 17px;
-    font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-h2 {
-    text-transform: capitalize;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    text-shadow: 4px 4px 5px black;
 }
 
 /* Tab functionality\\\\\\\\\\\\\\\\ */
 
 /*allows me to control style when cursor overs over tabs*/
 li a:hover {
-    background-color: #4aaaa5;;
+    background-color: #009ece;
     color: white;
 }
 
@@ -69,17 +67,18 @@ ul {
 /* Lets me float the tabs to the right side*/
 li {
     float: right;
+    margin-bottom: 0px;
 }
 
 /* layout styles for the individual tabs */
 li a {
     display: inline-block;
-    background-color: #ffffff;
+    background-color: #363636;
     border: none;
     text-align: center;
-    padding:18.75px 10px;
+    padding:24px 20px;
     text-decoration: none;
-    color:  #777777;
+    color:  #009ecea4;
     cursor: pointer; 
 }
 
@@ -93,30 +92,33 @@ p {
 body {
     position: relative;
     min-height: 100%;
-    color:  #777777;
+    color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: url("../images/background.png");
-    background-color: #eeeee7;
+    background-color: #3f3f3f;
     padding: 0;
     margin: 0; 
 }
 
 /*Style for headline 2*/
 h2 {
-    color: #4aaaa5;
+    color: white;
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
+    font-family: 'Righteous', cursive;
     font-size: 20px;
+    text-transform: capitalize;
 }
 
 /* Style for the Body Headline*/
 .body_title {
-    border-bottom: solid #cccccc;
+    border-bottom: solid white;
     border-bottom-width: 2px;
     margin-bottom: 20px;
     overflow: auto;
+    font-size: 30px;
+    text-shadow: 4px 4px 5px black;
 }
 
 /* Image headline*/
@@ -131,8 +133,8 @@ h2 {
 
 /*Content for the main Body*/
 .container {
-    background-color: #ffffff;
-    border: solid #dddddd;
+    background-color: #363636c9;
+    border: solid #009ece;
     border-width: 2px;
     padding: 20px;
     padding-top: 0;
@@ -163,7 +165,7 @@ textarea {
 /*syling for the submit button*/
 #submit {
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #009ece;
     font-size: 16px;
     text-align: center;
     border: none;
@@ -196,7 +198,7 @@ img {
 
 /* Style and positioning for image description */
 h3 {
-    background-color: #4aaaa5;
+    background-color: #009ece;
     color: #ffffff;
     width: 200px;
     position: absolute;
@@ -208,7 +210,7 @@ h3 {
 #foot {
     color: #ffffff;
     font-size: 12px;
-    background-color: #666666;
+    background-color: #363636;
     position: absolute;
     text-align: center;
     padding-top: 20px;
@@ -216,7 +218,7 @@ h3 {
     left: 0;
     right: 0;
     bottom:0;
-    border-top: solid #4aaaa5;
+    border-top: solid #009ece;
     border-top-width:7px;
     margin-bottom: 0;
     
@@ -333,7 +335,7 @@ footer {
     }
     li a {
         
-        padding:18.75px 40px;
+        padding:18.75px 20px;
         
     }
     img {
@@ -349,10 +351,15 @@ footer {
 } 
 
 @media screen and (max-width: 450px) {
+
+    .wrapper {
+        text-align: center;
+        padding: 0;
+    }
     
     li a {
         
-        padding:18.75px 20px;
+        padding:18.75px 10px;
     }
     img {
         width: 335px;  
