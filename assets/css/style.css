@@ -1,6 +1,11 @@
 /* Establishes sizing for the whole page */
 html {
     height: 100%;
+    overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
 /* Header styles /////////////////////////////////////////////////////// */
 
@@ -205,6 +210,18 @@ h3 {
     top: 240px;
     padding: 20px;
 }
+h3:hover {
+    background-color: #000000;
+    color: #009ece;
+}
+.image_container:hover {
+    transform: scale(1.25);
+}
+
+#linkColor {
+    color: white;
+}
+
 /* Footer styles /////////////////////////////////////////////////////// */
 /* Style for the footer*/
 #foot {
