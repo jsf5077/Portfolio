@@ -381,6 +381,9 @@ footer {
     .image_container:hover {
         transform: none;
     }
+    img {
+        margin-bottom: 20px;
+    }
 } 
 
 @media screen and (max-width: 450px) {
