@@ -44,6 +44,10 @@ h1 {
     text-shadow: 4px 4px 5px black;
 }
 
+.fa, .fab, .fal, .far, .fas {
+    width: 25px;
+} 
+
 /* Tab functionality\\\\\\\\\\\\\\\\ */
 
 /*allows me to control style when cursor overs over tabs*/
@@ -104,6 +108,11 @@ body {
     padding: 0;
     margin: 0; 
 }
+.contactStyle {
+    font-size: 25px;
+    text-indent: 0;
+}
+
 
 /*Style for headline 2*/
 h2 {
@@ -114,6 +123,9 @@ h2 {
     font-family: 'Righteous', cursive;
     font-size: 20px;
     text-transform: capitalize;
+}
+.iconColor {
+    color:   #009ece;
 }
 
 /* Style for the Body Headline*/
@@ -208,7 +220,8 @@ h3 {
     width: 200px;
     position: absolute;
     top: 240px;
-    padding: 20px;
+    padding: 5px 20px;
+    size: 30px;
 }
 h3:hover {
     background-color: #000000;
@@ -398,7 +411,8 @@ footer {
     } 
     .container {
         margin: 0;
-    } 
+    }
+
  }
  
 
