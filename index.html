@@ -1,163 +1,164 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <!--Setting character encoding-->
-    <meta charset="UTF-8" />
-    <!--Page Title-->
-    <title>Portfolio</title>
-    <!--Linking reset css file-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-    <!--Linking css file-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <!-- linking google font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
-      rel="stylesheet"
-    />
-    <!-- linking font awesome -->
-    <script src="https://kit.fontawesome.com/d3f5ba8611.js"></script>
-    <!-- viewport meta tag -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Parallax Template - Materialize</title>
 
-  <body>
-    <!-- header with nav tabs -->
-    <header>
-      <section class="head_container">
-        <h1 class="main_header">Jeff Froehlich</h1>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
 
-        <div class="wrapper">
-          <ul id="divider">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a class="current">About</a></li>
-            <li>
-              <a href="assets/resume/Resume.pdf" target="blank">Resume</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/jsf5077/" target="blank"
-                ><i class="fab fa-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://github.com/jsf5077" target="blank"
-                ><i class="fab fa-github"></i
-              ></a>
-            </li>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
           </ul>
         </div>
-      </section>
-    </header>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
 
-    <br />
-    <!-- main content -->
-    <section class="container">
-      <h2 class="body_title">About Me</h2>
 
-      <img src="assets/images/icon.jpg" alt="Jeff Froehlich" class="jeff" />
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
-      <p>
-        Hello, I am a Full-Stack Web Developer leveraging 5+ years of experience
-        in graphic design to build a unique user experience on web applications.
-        Recently, I earned a certificate in Full-Stack Web Development from the
-        University of Pennsylvania. I am passionate about newly my developed
-        skills in Javascript, CSS, Bootstrap, React.js, MySQL, MongoDB, and
-        responsive web design. Throughout my career, I have been a versatile
-        problem solver with strong organizational skills, whose determination
-        and patience has led to impactful results. I enjoy creating applications
-        within a team setting that have strong UI’s that are easy-to-use and
-        intuitive. 
-      </p>
-      <p>
-        I am a co-developer for the Sarge application, which is a
-        react-based web application with a mongoDB database that allows
-        powerlifters to easily track new personal records. My key contributions
-        included utilizing react-bootstrap for front-end development and
-        connecting the front-end to the back-end routes. 
-      </p>
-      <p>
-          In my free time, besides working on 3D print projects or creating 
-          original artworks, I volunteer my free time at a the 
-          Village Players of Hatboro, a local thatre in Hatboro, PA. I am looking forward 
-          to joining a team where I will contribute strengths in creativity,
-          branding, and communication from my graphic design experience.
-      </p>
-        
-        <!-- Now this is the story all about how my life got flip-turned upside down.
-        And I'd like to take a minute – just sit right there – I'll tell you how
-        I became a graphic artist of a town called Willow Grove (yeah...that's
-        how it goes, right?).
-      </p>
-      <p>
-        Now, I was not born and raised in West Philadelphia, but the Philly
-        suburbs is only a thirty-minute drive from the city. I didn't have to
-        worry about any knuckleheads making trouble in my neighborhood. Nor do I
-        have an aunt on the west coast willing to put up with my antics. That
-        being said, I do like my story so far. If my life was a series of books,
-        you could say that I'm in the process of closing the final chapter of
-        one book and working on the next. The good thing about this is that I
-        don't know where this final chapter is heading, but the denouement will
-        be a rollercoaster ride to close out the last five years of my life.
-        Then I get to start brand new with a fresh first page as I code my way
-        to becoming a developer.
-      </p>
-      <p>
-        But first, a brief summary of the series so far. The tale begins with me
-        growing up in Dublin, PA, where at an early age it was already clear
-        that I had a creative gift. After I moved to where I live now, I
-        continued to develop that gift sporadically as I carried on through
-        school (referred to as the “Dark Ages” in the series). It was towards
-        the end of the Dark Ages that things began to spice up. I met my
-        beautiful fiancé who has been by my side ever since. We have made many
-        beautiful memories together, and we have triumphed when times were at
-        their darkest. Losing our childhood friends to separate tragedies were
-        very dark times and I was lucky that we had each other to help carry on.
-        She has been my rock and, in a lot of ways, she's responsible for many
-        of the good things people say about me.
-      </p>
-      <p>
-        The next book in the series brings us to my education at Penn State
-        where my creative side really flourished. It is where I developed my
-        desire to not just belong to just one medium, contrary to the standard
-        that most artists follow. I began to experiment with all forms of art,
-        from three-dimensional animation to oil paints to live theatre. The
-        valuable lesson I gained from this experience was the ability to
-        perceive an issue and develop various ways to attack it with knowledge
-        gained in another field. That alone has saved my skin time and time
-        again. Being a Jack of all trades has its benefits.
-      </p>
-      <p>
-        This brings us up to the end of one book and the start of another
-        whereupon I graduated with my art degree and found a job as a graphic
-        artist. The beginning was rough as I adjusted from school life to work
-        life, but eventually I got the hang of it. For the most part, it has
-        been fun working on signs for companies and it has been rewarding to see
-        a piece of my soul in my neighborhood whenever I drive past a sign
-        project I have worked on. The problem, as with most people, is I became
-        too comfortable where I am and there was no more room for growth at my
-        job. It was time for a bold move and that brings us up to today.
-      </p>
-      <p>
-        I decided that it was time to challenge myself again. As you read this,
-        I am actively pushing myself to learn how to become a web developer. As
-        I write the ending to the book that defines my graphic artist
-        experience, I look forward to bringing over the life lessons I have
-        gained as I start applying fresh ink to the next book in my life. -->
-      </p>
-    </section>
-    <!-- <img src="assets/images/blu_skyline.png" alt=" " class="skyline">
-    <img src="assets/images/blu.png" alt=" " class="blu"> -->
-    <br />
-    <!-- Cheap trick to add space between content and footer without css -->
-    <br />
-    <br />
-    <!-- <img src="assets/images/blu_skyline.png" alt=" " class="skyline">
-    <img src="assets/images/blu.png" alt=" " class="blu"> -->
-    <!-- footer     -->
-    <footer class="footer">
-      <p id="foot">Copyright © 2019 Jeff Froehlich</p>
-      <!-- <img src="assets/images/blu.png" alt=" " class="blu_footer">
-        <img src="assets/images/blu_skyline.png" alt=" " class="skyline_footer"> -->
-    </footer>
   </body>
 </html>
