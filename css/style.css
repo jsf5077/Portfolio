@@ -26,8 +26,21 @@ p {
   color: rgba(255,255,255,.9);
 }
 
+#icon {
+  max-height: 200px;
+  max-width: auto;
+}
+
+#subheader {
+  font-family: bahnschrift;
+  color: white;
+  text-shadow: 3px 2px #01579b;
+  border-radius: 10px;
+  letter-spacing: 3px;
+}
+
 #parallax-container2 {
-  min-height: 300px;
+  min-height: 150px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -76,8 +89,16 @@ h1 {
   text-shadow: 4px 4px rgb(0, 0, 0);
 }
 
+h5 {
+  font-size: 1rem;
+}
+
+.text-shadow {
+  text-shadow: 4px 4px rgb(0, 0, 0);
+}
+
 #penn {
-  width: 300px;
+  max-height: 76px;
 }
 
 .flexbox {
