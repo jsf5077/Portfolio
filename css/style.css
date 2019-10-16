@@ -16,11 +16,18 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #ffab91;
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+#parallax-container2 {
+  min-height: 300px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -54,4 +61,48 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+  text-shadow: 4px 4px rgb(0, 0, 0);
+}
+
+#penn {
+  width: 300px;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.p2 {
+  padding: 10px;
+  max-height: 160px;
+  max-width: 160px
+}
+
+.contain {
+  width: 200px;
+  height: 200px;
+}
+
+body, .hideScroll {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
