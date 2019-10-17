@@ -15,8 +15,12 @@ p {
   line-height: 2rem;
 }
 
+#small-text {
+  font-size: 20px
+}
+
 .sidenav-trigger {
-  color: #ffab91;
+  color: #039be5;
 }
 
 .parallax-container {
@@ -32,11 +36,12 @@ p {
 }
 
 #subheader {
-  font-family: bahnschrift;
+  font-family: "Arial Black", Gadget, sans-serif;
   color: white;
   text-shadow: 3px 2px #01579b;
   border-radius: 10px;
   letter-spacing: 3px;
+  padding:20px;
 }
 
 #parallax-container2 {
@@ -136,3 +141,4 @@ body, .hideScroll {
   color: white;
   height: 120px;
 }
+
