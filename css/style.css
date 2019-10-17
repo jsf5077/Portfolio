@@ -127,3 +127,12 @@ body, .hideScroll {
 ::-webkit-scrollbar {
   display: none;
 }
+
+#footerSubText {
+  font-size: 2rem;
+}
+
+.fa-envelope {
+  color: white;
+  height: 120px;
+}
