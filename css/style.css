@@ -1,0 +1,138 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #ffab91;
+}
+
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+#icon {
+  max-height: 200px;
+  max-width: auto;
+}
+
+#subheader {
+  font-family: bahnschrift;
+  color: white;
+  text-shadow: 3px 2px #01579b;
+  border-radius: 10px;
+  letter-spacing: 3px;
+}
+
+#parallax-container2 {
+  min-height: 150px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+  text-shadow: 4px 4px rgb(0, 0, 0);
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+.text-shadow {
+  text-shadow: 4px 4px rgb(0, 0, 0);
+}
+
+#penn {
+  max-height: 76px;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.p2 {
+  padding: 10px;
+  max-height: 160px;
+  max-width: 160px
+}
+
+.contain {
+  width: 200px;
+  height: 200px;
+}
+
+body, .hideScroll {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#footerSubText {
+  font-size: 2rem;
+}
+
+.fa-envelope {
+  color: white;
+  height: 120px;
+}

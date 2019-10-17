@@ -1,163 +1,463 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
-    <!--Setting character encoding-->
-    <meta charset="UTF-8" />
-    <!--Page Title-->
-    <title>Portfolio</title>
-    <!--Linking reset css file-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-    <!--Linking css file-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <!-- linking google font -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- linking font awesome -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jeff Froehlich</title>
+
+    <!-- CSS  -->
     <link
-      href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <!-- linking font awesome -->
-    <script src="https://kit.fontawesome.com/d3f5ba8611.js"></script>
-    <!-- viewport meta tag -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="css/materialize-social.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
   </head>
-
   <body>
-    <!-- header with nav tabs -->
-    <header>
-      <section class="head_container">
-        <h1 class="main_header">Jeff Froehlich</h1>
+    <nav class=" nav-wrapper grey darken-2" role="navigation">
+      <div class="container">
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a
+              class="waves-effect waves-light btn-floating social linkedin pulse"
+              href="Resume.pdf"
+              target="blank"
+              ><i class="fa fa-file"></i
+            ></a>
+          </li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a
+              class="waves-effect waves-light btn-floating social linkedin pulse"
+              href="https://www.linkedin.com/in/jsf5077/"
+              target="blank"
+              ><i class="fa fa-linkedin "></i
+            ></a>
+          </li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a
+              class="waves-effect waves-light btn-floating social github pulse"
+              href="https://github.com/jsf5077"
+              target="blank"
+              ><i class="fa fa-github "></i
+            ></a>
+          </li>
+        </ul>
+        <ul id="nav-mobile" class="sidenav">
+          <li>
+            <br />
+            <a
+              style="font-size: 48px"
+              class=""
+              href="https://github.com/jsf5077"
+              target="blank"
+              ><i class="fa fa-github "></i
+            ></a>
+          </li>
+          <li>
+            <br />
+            <a
+              style="font-size: 48px"
+              class=""
+              href="https://www.linkedin.com/in/jsf5077/"
+              target="blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <br />
+            <a style="font-size: 48px" class="" href="Resume.pdf" target="blank"
+              ><i class="fa fa-file"></i
+            ></a>
+          </li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
+          ><i class="material-icons ">menu</i></a
+        >
+      </div>
+    </nav>
 
-        <div class="wrapper">
-          <ul id="divider">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a class="current">About</a></li>
-            <li>
-              <a href="assets/resume/Resume.pdf" target="blank">Resume</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/jsf5077/" target="blank"
-                ><i class="fab fa-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://github.com/jsf5077" target="blank"
-                ><i class="fab fa-github"></i
-              ></a>
-            </li>
-          </ul>
+    <div id="index-banner" class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br /><br />
+          <h1
+            class="header center hide-on-small-only white-text text-lighten-2"
+          >
+            Jeff Froehlich
+          </h1>
+          <h2
+            class="header center hide-on-med-and-up white-text text-shadow text-lighten-2"
+          >
+            Jeff
+          </h2>
+          <h2
+            class="header center hide-on-med-and-up white-text text-shadow text-lighten-2"
+          >
+            Froehlich
+          </h2>
+          <div class="row center hide-on-med-and-up">
+            <img src="meicon.png" alt="profile icon" id="icon" />
+          </div>
+
+          <br /><br />
         </div>
-      </section>
-    </header>
+      </div>
+      <div class="parallax">
+        <img src="background1.jpg" alt="Unsplashed background img 1" />
+      </div>
+    </div>
 
-    <br />
-    <!-- main content -->
-    <section class="container">
-      <h2 class="body_title">About Me</h2>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12">
+            <div class="icon-block flexbox">
+              <div class="row hide-on-small-only">
+                <img src="meicon.png" alt="profile icon" id="icon" />
+              </div>
+              <div class="row">
+                <h4 class="center">Who am I?</h4>
 
-      <img src="assets/images/icon.jpg" alt="Jeff Froehlich" class="jeff" />
+                <h5 class="light center hide-on-med-and-up">
+                  Hello everyone! I am a Full-Stack Web Developer leveraging 5+
+                  years of experience in graphic design to build a unique user
+                  experience on web applications. Recently, I earned a
+                  certificate in Full-Stack Web Development from the University
+                  of Pennsylvania. I am passionate about newly my developed
+                  skills that I list below along with examples of my work. In my
+                  spare time, I love creating new art utilizing various types of
+                  media. I also enjoy volunteering at a local theatre.
+                </h5>
+                <h4 class="light center hide-on-small-only">
+                  Hello everyone! I am a Full-Stack Web Developer leveraging 5+
+                  years of experience in graphic design to build a unique user
+                  experience on web applications. Recently, I earned a
+                  certificate in Full-Stack Web Development from the University
+                  of Pennsylvania. I am passionate about newly my developed
+                  skills that I list below along with examples of my work. In my
+                  spare time, I love creating new art utilizing various types of
+                  media. I also enjoy volunteering at a local theatre.
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <p>
-        Hello, I am a Full-Stack Web Developer leveraging 5+ years of experience
-        in graphic design to build a unique user experience on web applications.
-        Recently, I earned a certificate in Full-Stack Web Development from the
-        University of Pennsylvania. I am passionate about newly my developed
-        skills in Javascript, CSS, Bootstrap, React.js, MySQL, MongoDB, and
-        responsive web design. Throughout my career, I have been a versatile
-        problem solver with strong organizational skills, whose determination
-        and patience has led to impactful results. I enjoy creating applications
-        within a team setting that have strong UI’s that are easy-to-use and
-        intuitive. 
-      </p>
-      <p>
-        I am a co-developer for the Sarge application, which is a
-        react-based web application with a mongoDB database that allows
-        powerlifters to easily track new personal records. My key contributions
-        included utilizing react-bootstrap for front-end development and
-        connecting the front-end to the back-end routes. 
-      </p>
-      <p>
-          In my free time, besides working on 3D print projects or creating 
-          original artworks, I volunteer my free time at a the 
-          Village Players of Hatboro, a local thatre in Hatboro, PA. I am looking forward 
-          to joining a team where I will contribute strengths in creativity,
-          branding, and communication from my graphic design experience.
-      </p>
-        
-        <!-- Now this is the story all about how my life got flip-turned upside down.
-        And I'd like to take a minute – just sit right there – I'll tell you how
-        I became a graphic artist of a town called Willow Grove (yeah...that's
-        how it goes, right?).
-      </p>
-      <p>
-        Now, I was not born and raised in West Philadelphia, but the Philly
-        suburbs is only a thirty-minute drive from the city. I didn't have to
-        worry about any knuckleheads making trouble in my neighborhood. Nor do I
-        have an aunt on the west coast willing to put up with my antics. That
-        being said, I do like my story so far. If my life was a series of books,
-        you could say that I'm in the process of closing the final chapter of
-        one book and working on the next. The good thing about this is that I
-        don't know where this final chapter is heading, but the denouement will
-        be a rollercoaster ride to close out the last five years of my life.
-        Then I get to start brand new with a fresh first page as I code my way
-        to becoming a developer.
-      </p>
-      <p>
-        But first, a brief summary of the series so far. The tale begins with me
-        growing up in Dublin, PA, where at an early age it was already clear
-        that I had a creative gift. After I moved to where I live now, I
-        continued to develop that gift sporadically as I carried on through
-        school (referred to as the “Dark Ages” in the series). It was towards
-        the end of the Dark Ages that things began to spice up. I met my
-        beautiful fiancé who has been by my side ever since. We have made many
-        beautiful memories together, and we have triumphed when times were at
-        their darkest. Losing our childhood friends to separate tragedies were
-        very dark times and I was lucky that we had each other to help carry on.
-        She has been my rock and, in a lot of ways, she's responsible for many
-        of the good things people say about me.
-      </p>
-      <p>
-        The next book in the series brings us to my education at Penn State
-        where my creative side really flourished. It is where I developed my
-        desire to not just belong to just one medium, contrary to the standard
-        that most artists follow. I began to experiment with all forms of art,
-        from three-dimensional animation to oil paints to live theatre. The
-        valuable lesson I gained from this experience was the ability to
-        perceive an issue and develop various ways to attack it with knowledge
-        gained in another field. That alone has saved my skin time and time
-        again. Being a Jack of all trades has its benefits.
-      </p>
-      <p>
-        This brings us up to the end of one book and the start of another
-        whereupon I graduated with my art degree and found a job as a graphic
-        artist. The beginning was rough as I adjusted from school life to work
-        life, but eventually I got the hang of it. For the most part, it has
-        been fun working on signs for companies and it has been rewarding to see
-        a piece of my soul in my neighborhood whenever I drive past a sign
-        project I have worked on. The problem, as with most people, is I became
-        too comfortable where I am and there was no more room for growth at my
-        job. It was time for a bold move and that brings us up to today.
-      </p>
-      <p>
-        I decided that it was time to challenge myself again. As you read this,
-        I am actively pushing myself to learn how to become a web developer. As
-        I write the ending to the book that defines my graphic artist
-        experience, I look forward to bringing over the life lessons I have
-        gained as I start applying fresh ink to the next book in my life. -->
-      </p>
-    </section>
-    <!-- <img src="assets/images/blu_skyline.png" alt=" " class="skyline">
-    <img src="assets/images/blu.png" alt=" " class="blu"> -->
-    <br />
-    <!-- Cheap trick to add space between content and footer without css -->
-    <br />
-    <br />
-    <!-- <img src="assets/images/blu_skyline.png" alt=" " class="skyline">
-    <img src="assets/images/blu.png" alt=" " class="blu"> -->
-    <!-- footer     -->
-    <footer class="footer">
-      <p id="foot">Copyright © 2019 Jeff Froehlich</p>
-      <!-- <img src="assets/images/blu.png" alt=" " class="blu_footer">
-        <img src="assets/images/blu_skyline.png" alt=" " class="skyline_footer"> -->
+    <div class="parallax-container valign-wrapper" id="parallax-container2">
+      <div class="parallax">
+        <img src="background2.jpg" alt="Unsplashed background img 2" />
+      </div>
+    </div>
+
+    <div class="container ">
+      <div class="section ">
+        <div class="row ">
+          <h3 class="center  light-blue darken-1" id="subheader">Skills</h3>
+          <div class="col s6 m3 center contain valign-wrapper">
+            <img class="p2 center" src="html5.png" alt="html 5" />
+          </div>
+          <div class="col s6 m3 center contain valign-wrapper">
+            <img class="p2" src="css3.png" alt="css 3" />
+          </div>
+          <div class="col s6 m3 center contain valign-wrapper">
+            <img class="p2" src="bootstrap.png" alt="bootstrap" />
+          </div>
+          <div class="col s6 m3 center contain valign-wrapper">
+            <img class="p2" src="javascript.png" alt="javascript" />
+          </div>
+          <div class="col s6 m3 center contain valign-wrapper">
+            <img class="p2" src="jquery.png" alt="javascript" />
+          </div>
+          <div class="col s6 m3 center contain valign-wrapper">
+            <img class="p2" src="node-js.png" alt="node" />
+          </div>
+          <div class="col s6 m3 center contain valign-wrapper">
+            <img class="p2" src="react-js.png" alt="react" />
+          </div>
+          <div class="col s6 m3 center contain valign-wrapper">
+            <img class="p2" src="mongodb.png" alt="MongoDB" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container flexbox" id="parallax-container2">
+      <div class="parallax">
+        <img src="background3.jpg" alt="Unsplashed background img 3" />
+      </div>
+    </div>
+
+    <div class="container">
+      <h3 class="center  light-blue darken-1" id="subheader">Education</h3>
+      <br />
+      <div class="row">
+        <div class="col s12 m6">
+          <div class=" flexbox ">
+            <img class=" center" id="penn" src="penn.png" alt="penn" />
+          </div>
+          <div class=" flexbox center">
+            <h4>2019 - Full-Stack Web Development Certificate</h4>
+          </div>
+          <div class=" flexbox center">
+            <h5>
+              Six month program focused around full-stack Javascript. Learned
+              frontend HTML, CSS, Bootstrap, and React.Js & backend MySQL,
+              MongoDB, and Node.Js
+            </h5>
+          </div>
+        </div>
+        <div class="hide-on-med-and-up col m2">
+          <br />
+          <br />
+          <br />
+        </div>
+        <div class="col s12 m6">
+          <div class=" flexbox ">
+            <img class=" center" id="penn" src="PSU.png" alt="penn" />
+          </div>
+          <div class=" flexbox center">
+            <h4>2014 - Bachelors of Art in Art. Focus: New Media</h4>
+          </div>
+          <div class=" flexbox center">
+            <h5>
+              With a focus in New Media through the SOVA program at Penn State.
+              Learned 3D animation with programs such as AutoDesk Maya (A Python
+              based software) and Adobe After Effects.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container flexbox" id="parallax-container2">
+      <div class="parallax">
+        <img src="phillySunrise.jpg" alt="Philly Sunrise" />
+      </div>
+    </div>
+
+    <div class="container">
+      <h3 class="center  light-blue darken-1" id="subheader">Projects</h3>
+      <br />
+      <div class="row">
+        <project class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="port(11).jpg" />
+              <span class="card-title">Sarge</span>
+            </div>
+            <div class="card-content">
+              <p>
+                A React-based crossfit application that allows users to track
+                new personal records. Authentication and MongoDB were
+                implimented.
+              </p>
+            </div>
+            <div class="card-action">
+              <a
+                class="waves-effect waves-light btn-floating social github pulse"
+                href="https://github.com/kmj217/Project3"
+                target="blank"
+                ><i class="fa fa-github "></i
+              ></a>
+              <a
+                class="right waves-effect waves-light btn-floating social github pulse"
+                href="https://guarded-oasis-99226.herokuapp.com/"
+                target="blank"
+                ><i class="fa fa-play-circle "></i
+              ></a>
+            </div>
+          </div>
+        </project>
+        <project class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="port(1).jpg" />
+              <span class="card-title">Jurassic Trivia</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Demonstrates the ability to use javascript to create a web-based
+                trivia game. One of the key functions is the use of time
+                intervals.
+              </p>
+            </div>
+            <div class="card-action">
+              <a
+                class="waves-effect waves-light btn-floating social github pulse"
+                href="https://github.com/jsf5077/Jurassic-Trivia"
+                target="blank"
+                ><i class="fa fa-github "></i
+              ></a>
+              <a
+                class="right waves-effect waves-light btn-floating social github pulse"
+                href="https://jsf5077.github.io/Jurassic-Trivia/"
+                target="blank"
+                ><i class="fa fa-play-circle "></i
+              ></a>
+            </div>
+          </div>
+        </project>
+        <project class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="port(2).jpg" />
+              <span class="card-title">Avengers Assemble</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Classic Hangman game built with javascript that pulls the next
+                word randomly from an existing array. Requires desktop keyboard
+                to play.
+              </p>
+            </div>
+            <div class="card-action">
+              <a
+                class="waves-effect waves-light btn-floating social github pulse"
+                href="https://github.com/jsf5077/Avengers-Assemble"
+                target="blank"
+                ><i class="fa fa-github "></i
+              ></a>
+              <a
+                class="right waves-effect waves-light btn-floating social github pulse"
+                href="https://jsf5077.github.io/Avengers-Assemble/"
+                target="blank"
+                ><i class="fa fa-play-circle "></i
+              ></a>
+            </div>
+          </div>
+        </project>
+        <project class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="port(4).jpg" />
+                <span class="card-title">Butler</span>
+              </div>
+              <div class="card-content">
+                <p>
+                    Helps users with limited ingredients find recipes through the Edamam API and recommends a wine through prebuilt arrays. 
+                </p>
+              </div>
+              <div class="card-action">
+                <a
+                  class="waves-effect waves-light btn-floating social github pulse"
+                  href="https://github.com/jsf5077/Butler"
+                  target="blank"
+                  ><i class="fa fa-github "></i
+                ></a>
+                <a
+                  class="right waves-effect waves-light btn-floating social github pulse"
+                  href="https://ajweber102.github.io/Butler/"
+                  target="blank"
+                  ><i class="fa fa-play-circle "></i
+                ></a>
+              </div>
+            </div>
+          </project>
+          <project class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="port(5).jpg" />
+                  <span class="card-title">Roshambo</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                      Demonstrates the use of a firebase database that keeps track stats in realtime. There is also a javascript generated chatroom.
+                </div>
+                <div class="card-action">
+                  <a
+                    class="waves-effect waves-light btn-floating social github pulse"
+                    href="https://github.com/jsf5077/Roshambo"
+                    target="blank"
+                    ><i class="fa fa-github "></i
+                  ></a>
+                  <a
+                    class="right waves-effect waves-light btn-floating social github pulse"
+                    href="https://jsf5077.github.io/Roshambo/"
+                    target="blank"
+                    ><i class="fa fa-play-circle "></i
+                  ></a>
+                </div>
+              </div>
+            </project>
+            <project class="col s12 m4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="port(3).jpg" />
+                    <span class="card-title">The GIF Theatre</span>
+                  </div>
+                  <div class="card-content">
+                    <p>
+                        Demonstrates the ability to use the Giphy API to populate application with gifs pulled from premade or custom buttons.                  </div>
+                  <div class="card-action">
+                    <a
+                      class="waves-effect waves-light btn-floating social github pulse"
+                      href="https://github.com/jsf5077/GIF-Theatre"
+                      target="blank"
+                      ><i class="fa fa-github "></i
+                    ></a>
+                    <a
+                      class="right waves-effect waves-light btn-floating social github pulse"
+                      href="https://jsf5077.github.io/GIF-Theatre/"
+                      target="blank"
+                      ><i class="fa fa-play-circle "></i
+                    ></a>
+                  </div>
+                </div>
+              </project>
+      </div>
+    </div>
+
+    <footer class="page-footer light-blue darken-1">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+              <h3 class="center  light-blue darken-1" id="subheader">Contact Me</h3>
+              <h4 class="grey-text text-lighten-4 center" id="footerSubText">
+                  If you'd like to connect, please feel free to send me an email!
+              </h4>
+              <a href="mailto:jsf5077@gmail.com" class="flexbox"> <i class="fa fa-envelope fa-4x "></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          
+        </div>
+      </div>
     </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
   </body>
 </html>
