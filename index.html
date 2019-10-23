@@ -105,7 +105,7 @@
 
     <div id="index-banner" class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
-        <div class="container">
+        <div class="container" id="titleContainer">
           <br /><br />
           <h1
             class="header center hide-on-small-only white-text text-lighten-2"
@@ -135,7 +135,8 @@
     </div>
 
     <div class="container">
-      <div class="section">
+        <h3 class="center  light-blue darken-1" id="subheader">WHO AM I?</h3>
+    </br>
         <div class="row">
           <div class="col s12">
             <div class="icon-block flexbox">
@@ -143,8 +144,6 @@
                 <img src="meicon.png" alt="profile icon" id="icon" />
               </div>
               <div class="row">
-                <h4 class="center">Who am I?</h4>
-
                 <h5 class="light center hide-on-med-and-up">
                   Hello everyone! I am a Full-Stack Web Developer leveraging 5+
                   years of experience in graphic design to build a unique user
@@ -167,7 +166,6 @@
                 </h4>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
@@ -179,35 +177,34 @@
     </div>
 
     <div class="container ">
-      <div class="section ">
+        <h3 class="center  light-blue darken-1" id="subheader">SKILLS</h3>
+    </br>
         <div class="row ">
-          <h3 class="center  light-blue darken-1" id="subheader">SKILLS</h3>
-          <div class="col s6 m3 center contain valign-wrapper">
+          <div class="col s6 m4 center contain valign-wrapper">
             <img class="p2 center" src="html5.png" alt="html 5" />
           </div>
-          <div class="col s6 m3 center contain valign-wrapper">
+          <div class="col s6 m4 center contain valign-wrapper">
             <img class="p2" src="css3.png" alt="css 3" />
           </div>
-          <div class="col s6 m3 center contain valign-wrapper">
+          <div class="col s6 m4 center contain valign-wrapper">
             <img class="p2" src="bootstrap.png" alt="bootstrap" />
           </div>
-          <div class="col s6 m3 center contain valign-wrapper">
+          <div class="col s6 m4 center contain valign-wrapper">
             <img class="p2" src="javascript.png" alt="javascript" />
           </div>
-          <div class="col s6 m3 center contain valign-wrapper">
+          <div class="col s6 m4 center contain valign-wrapper">
             <img class="p2" src="jquery.png" alt="javascript" />
           </div>
-          <div class="col s6 m3 center contain valign-wrapper">
+          <div class="col s6 m4 center contain valign-wrapper">
             <img class="p2" src="node-js.png" alt="node" />
           </div>
-          <div class="col s6 m3 center contain valign-wrapper">
+          <div class="col s6 m4 center contain valign-wrapper">
             <img class="p2" src="react-js.png" alt="react" />
           </div>
-          <div class="col s6 m3 center contain valign-wrapper">
+          <div class="col s6 m4 center contain valign-wrapper">
             <img class="p2" src="mongodb.png" alt="MongoDB" />
           </div>
         </div>
-      </div>
     </div>
 
     <div class="parallax-container flexbox" id="parallax-container2">
@@ -264,11 +261,11 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="projectsContainer">
       <div ><h3 class="center light-blue darken-1" id="subheader">PROJECTS</h3></div>
       <br />
       <div class="row">
-        <div class="card col s12 m4">
+        <card class="card col s12 m4">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="port11.jpg" />
           </div>
@@ -300,9 +297,10 @@
               personal records. Authentication and MongoDB were implemented.
             </p>
           </div>
-        </div>
+        </card>
 
-        <div class="card col s12 m4">
+
+        <card class="card col s12 m4">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="port1.jpg" />
           </div>
@@ -336,9 +334,11 @@
               trivia game. Key feature is the use of time intervals.
             </p>
           </div>
-        </div>
+        </card>
 
-        <div class="card col s12 m4">
+
+
+        <card class="card col s12 m4">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="port10.jpg" />
           </div>
@@ -370,9 +370,10 @@
               with props and state tracks selected pokemon and scores.
             </p>
           </div>
-        </div>
+        </card>
 
-        <div class="card col s12 m4">
+
+        <card class="card col s12 m4">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="port2.jpg" />
           </div>
@@ -409,9 +410,10 @@
               play.
             </p>
           </div>
-        </div>
+        </card>
 
-        <div class="card col s12 m4">
+
+        <card class="card col s12 m4">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="port4.jpg" />
           </div>
@@ -443,9 +445,10 @@
               Edamam API and recommends a wine through prebuilt arrays.
             </p>
           </div>
-        </div>
+        </card>
 
-        <div class="card col s12 m4">
+
+        <card class="card col s12 m4">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="port5.jpg" />
           </div>
@@ -477,9 +480,10 @@
               in realtime. There is also a javascript generated chatroom.
             </p>
           </div>
-        </div>
+        </card>
 
-        <div class="card col s12 m4">
+
+        <card class="card col s12 m4">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="port3.jpg" />
           </div>
@@ -509,19 +513,19 @@
               >The GIF Theatre<i class="material-icons right">close</i></span
             >
             <p>
-              Demonstrates the use of a firebase database that keeps track stats
-              in realtime. There is also a javascript generated chatroom.
+              Demonstrates the ability to use the Giphy API to populate the with gifs related to a search or button choice.
             </p>
           </div>
-        </div>
+        </card>
 
-        <div class="card col s12 m4">
+
+        <card class="card col s12 m4">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="port9.jpg" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
-              >The Burger Joint<i class="material-icons right"
+              >Burger Joint<i class="material-icons right"
                 >more_vert</i
               ></span
             >
@@ -550,9 +554,10 @@
               Pattern.
             </p>
           </div>
-        </div>
+        </card>
 
-        <div class="card col s12 m4">
+
+        <card class="card col s12 m4">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="port7.jpg" />
           </div>
@@ -578,13 +583,13 @@
               Three types of users can sign in and access the database.
             </p>
           </div>
-        </div>
+        </card>
 
       </div>
     </div>
 
     <footer class="page-footer light-blue darken-1 flexbox">
-      <div class="container flexbox">
+      <div class="container flexbox" id="footerContainer">
         <div class="">
           <div class="col l6 s12">
             <h3 class="center  light-blue darken-1" id="subheader">

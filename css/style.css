@@ -98,6 +98,10 @@ h5 {
   font-size: 1rem;
 }
 
+h4 {
+  font-size: 1.75rem;
+}
+
 .text-shadow {
   text-shadow: 4px 4px rgb(0, 0, 0);
 }
@@ -142,3 +146,40 @@ body, .hideScroll {
   height: 120px;
 }
 
+body {
+  background-color: #444;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+}
+
+#footerContainer {
+  background-color: #039be5;
+
+}
+
+#projectsContainer {
+  background-color: #444;
+
+}
+
+#titleContainer {
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.card {
+  border-radius: 10px;
+  /* margin: 2px; */
+  width: 50%;
+  border-style: solid;
+  border-width: medium;
+}
+
+.activator {
+  padding-top: 5%;
+  border-width: 10px;
+  border-color: #444;
+}
