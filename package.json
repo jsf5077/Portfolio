@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.21",
+    "es6-promise": "^4.2.8",
+    "es6-shim": "^0.35.5",
+    "fontawesome": "^5.6.3",
+    "materialize-social": "^1.0.3",
+    "materializecss": "^1.0.11",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.6",
+    "symbol-observable": "^1.2.0",
+    "tslib": "^1.10.0",
+    "zone.js": "^0.6.26"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsf5077/Portfolio.git"
+  },
+  "author": "Jeff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsf5077/Portfolio/issues"
+  },
+  "homepage": "https://github.com/jsf5077/Portfolio#readme"
+}
